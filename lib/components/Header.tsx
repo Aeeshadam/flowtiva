@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "./Button";
 import { Logo } from "./Logo";
 
-export function Header() {
+const  Header=()=> {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
@@ -80,3 +80,4 @@ export function Header() {
   );
 }
 
+export default Header;
